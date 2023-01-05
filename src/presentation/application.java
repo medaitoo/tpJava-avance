@@ -76,7 +76,7 @@ public class application {
                     System.out.println("Le produit a été inséré avec succés.");
                     break;
                 case 4:
-                    System.out.println("Entrez l\'id :");
+                    System.out.println("Entrez l\'id du produit à supprimer:");
                     id = sc.nextLong();
                     a.delete(id);
                     break;
